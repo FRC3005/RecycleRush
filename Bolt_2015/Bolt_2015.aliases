@@ -1,6 +1,0 @@
-[My Computer]
-My Computer = "192.168.1.68"
-
-[RT cRIO Target]
-RT cRIO Target = "10.30.05.2"
-
