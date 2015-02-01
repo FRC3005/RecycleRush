@@ -133,6 +133,13 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
+			<Item Name="subVI" Type="Folder">
+				<Item Name="Camera Types.ctl" Type="VI" URL="../Vision/subVI/Camera Types.ctl"/>
+				<Item Name="Compute DistanceToTarget3.vi" Type="VI" URL="../Vision/subVI/Compute DistanceToTarget3.vi"/>
+				<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision/subVI/Get camera FOVs.vi"/>
+				<Item Name="Normalize Coordinates2.vi" Type="VI" URL="../Vision/subVI/Normalize Coordinates2.vi"/>
+				<Item Name="Sorted Particle Report 2015.vi" Type="VI" URL="../Vision/subVI/Sorted Particle Report 2015.vi"/>
+			</Item>
 			<Item Name="Vision Begin.vi" Type="VI" URL="../Vision/Vision Begin.vi"/>
 			<Item Name="Vision Process.vi" Type="VI" URL="../Vision/Vision Process.vi"/>
 		</Item>
@@ -710,12 +717,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Camera Types.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Camera Types.ctl"/>
-			<Item Name="Compute DistanceToTarget3.vi" Type="VI" URL="../Vision/subVI/Compute DistanceToTarget3.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get camera FOVs.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2015 Vision Example/Vision Support Code/Get camera FOVs.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -729,8 +733,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Normalize Coordinates2.vi" Type="VI" URL="../Vision/subVI/Normalize Coordinates2.vi"/>
-			<Item Name="Sorted Particle Report 2015.vi" Type="VI" URL="../Vision/subVI/Sorted Particle Report 2015.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
