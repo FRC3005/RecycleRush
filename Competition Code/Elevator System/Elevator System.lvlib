@@ -44,4 +44,8 @@
 		<Item Name="Gripper Control Loop.vi" Type="VI" URL="../Private/Gripper Control Loop.vi"/>
 		<Item Name="EoTDetect.vi" Type="VI" URL="../Private/EoTDetect.vi"/>
 	</Item>
+	<Item Name="SimulatorVIs" Type="Folder">
+		<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
+		<Item Name="Plant System.vi" Type="VI" URL="../SimulatorVIs/Plant System.vi"/>
+	</Item>
 </Library>
