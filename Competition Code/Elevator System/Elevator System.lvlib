@@ -13,12 +13,12 @@
 			<Item Name="Pickup.vi" Type="VI" URL="../Public/Pickup.vi"/>
 			<Item Name="Score.vi" Type="VI" URL="../Public/Score.vi"/>
 			<Item Name="Stop.vi" Type="VI" URL="../Public/Stop.vi"/>
-			<Item Name="ElevatorManual.vi" Type="VI" URL="../Public/ElevatorManual.vi"/>
-			<Item Name="TeirToSensor.vi" Type="VI" URL="../Public/TeirToSensor.vi"/>
-			<Item Name="GripperSettings.vi" Type="VI" URL="../Public/GripperSettings.vi"/>
 			<Item Name="Open.vi" Type="VI" URL="../Public/Open.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 			<Item Name="Cycle.vi" Type="VI" URL="../Public/Cycle.vi"/>
+			<Item Name="ElevatorManual.vi" Type="VI" URL="../Public/ElevatorManual.vi"/>
+			<Item Name="TeirToSensor.vi" Type="VI" URL="../Public/TeirToSensor.vi"/>
+			<Item Name="GripperSettings.vi" Type="VI" URL="../Public/GripperSettings.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="TeirNumber.ctl" Type="VI" URL="../Typedef/TeirNumber.ctl"/>
