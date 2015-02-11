@@ -40,8 +40,11 @@
 			<Item Name="CommandPickup.vi" Type="VI" URL="../Private/CompoundCommands/CommandPickup.vi"/>
 			<Item Name="CommandCycle.vi" Type="VI" URL="../Private/CompoundCommands/CommandCycle.vi"/>
 		</Item>
-		<Item Name="Elevator Control Loop.vi" Type="VI" URL="../Private/Elevator Control Loop.vi"/>
-		<Item Name="Gripper Control Loop.vi" Type="VI" URL="../Private/Gripper Control Loop.vi"/>
+		<Item Name="Control Loops" Type="Folder">
+			<Item Name="Elevator Control Loop.vi" Type="VI" URL="../Private/Elevator Control Loop.vi"/>
+			<Item Name="Gripper Control Loop.vi" Type="VI" URL="../Private/Gripper Control Loop.vi"/>
+			<Item Name="Gripper Control Loop CAN.vi" Type="VI" URL="../Private/Gripper Control Loop CAN.vi"/>
+		</Item>
 		<Item Name="EoTDetect.vi" Type="VI" URL="../Private/EoTDetect.vi"/>
 	</Item>
 	<Item Name="SimulatorVIs" Type="Folder">
