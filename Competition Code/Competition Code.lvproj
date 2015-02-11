@@ -123,6 +123,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Joystick Sensitivity.vi"/>
 			<Item Name="Joystick_Deadband.vi" Type="VI" URL="../Joystick_Deadband.vi"/>
+			<Item Name="MotorEoTDetect.vi" Type="VI" URL="../MotorEoTDetect.vi"/>
 			<Item Name="Scripting Compiler.vi" Type="VI" URL="../Scripting Compiler.vi"/>
 			<Item Name="Trim String Array.vi" Type="VI" URL="../Trim String Array.vi"/>
 		</Item>
