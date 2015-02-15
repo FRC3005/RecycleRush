@@ -35,6 +35,7 @@
 			<Item Name="MessageType.ctl" Type="VI" URL="../Typedef/MessageType.ctl"/>
 			<Item Name="StackCommandType.ctl" Type="VI" URL="../Typedef/StackCommandType.ctl"/>
 			<Item Name="StackMessage.ctl" Type="VI" URL="../Typedef/StackMessage.ctl"/>
+			<Item Name="GripperNotifierType.ctl" Type="VI" URL="../Typedef/GripperNotifierType.ctl"/>
 		</Item>
 		<Item Name="CompoundCommands" Type="Folder">
 			<Item Name="CommandPickup.vi" Type="VI" URL="../Private/CompoundCommands/CommandPickup.vi"/>
@@ -51,4 +52,5 @@
 		<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
 		<Item Name="Plant System.vi" Type="VI" URL="../SimulatorVIs/Plant System.vi"/>
 	</Item>
+	<Item Name="Get Gripper Notifier.vi" Type="VI" URL="../Private/Get Gripper Notifier.vi"/>
 </Library>
