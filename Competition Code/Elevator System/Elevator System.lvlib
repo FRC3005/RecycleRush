@@ -15,9 +15,13 @@
 			<Item Name="Stop.vi" Type="VI" URL="../Public/Stop.vi"/>
 			<Item Name="Open.vi" Type="VI" URL="../Public/Open.vi"/>
 			<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+			<Item Name="Gripper RC.vi" Type="VI" URL="../Public/Gripper RC.vi"/>
+			<Item Name="Gripper Cycle.vi" Type="VI" URL="../Public/Gripper Cycle.vi"/>
 			<Item Name="Cycle.vi" Type="VI" URL="../Public/Cycle.vi"/>
 			<Item Name="ElevatorManual.vi" Type="VI" URL="../Public/ElevatorManual.vi"/>
 			<Item Name="TeirToSensor.vi" Type="VI" URL="../Public/TeirToSensor.vi"/>
+			<Item Name="Wait On Elevator.vi" Type="VI" URL="../Public/Wait On Elevator.vi"/>
+			<Item Name="Wait On Gripper.vi" Type="VI" URL="../Public/Wait On Gripper.vi"/>
 			<Item Name="GripperSettings.vi" Type="VI" URL="../Public/GripperSettings.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
@@ -47,10 +51,10 @@
 			<Item Name="Gripper Control Loop CAN.vi" Type="VI" URL="../Private/Gripper Control Loop CAN.vi"/>
 		</Item>
 		<Item Name="EoTDetect.vi" Type="VI" URL="../Private/EoTDetect.vi"/>
+		<Item Name="Get Gripper Notifier.vi" Type="VI" URL="../Private/Get Gripper Notifier.vi"/>
 	</Item>
 	<Item Name="SimulatorVIs" Type="Folder">
 		<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
 		<Item Name="Plant System.vi" Type="VI" URL="../SimulatorVIs/Plant System.vi"/>
 	</Item>
-	<Item Name="Get Gripper Notifier.vi" Type="VI" URL="../Private/Get Gripper Notifier.vi"/>
 </Library>
