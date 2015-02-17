@@ -52,6 +52,8 @@
 		</Item>
 		<Item Name="EoTDetect.vi" Type="VI" URL="../Private/EoTDetect.vi"/>
 		<Item Name="Get Gripper Notifier.vi" Type="VI" URL="../Private/Get Gripper Notifier.vi"/>
+		<Item Name="GetElevatorStatus.vi" Type="VI" URL="../Public/GetElevatorStatus.vi"/>
+		<Item Name="GetGripperStatus.vi" Type="VI" URL="../Public/GetGripperStatus.vi"/>
 	</Item>
 	<Item Name="SimulatorVIs" Type="Folder">
 		<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
