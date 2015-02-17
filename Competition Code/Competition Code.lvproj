@@ -119,6 +119,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Anti Intergral Windup.vi" Type="VI" URL="../Anti Intergral Windup.vi"/>
+			<Item Name="Auton Drive Straight Helper.vi" Type="VI" URL="../Auton Drive Straight Helper.vi"/>
 			<Item Name="Command Type.ctl" Type="VI" URL="../Command Type.ctl"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../Joystick Sensitivity.vi"/>
@@ -151,7 +152,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Begin.vi" Type="VI" URL="../Vision/Vision Begin.vi"/>
 			<Item Name="Vision Process.vi" Type="VI" URL="../Vision/Vision Process.vi"/>
 		</Item>
-		<Item Name="Auton Drive Straight Helper.vi" Type="VI" URL="../Elevator System/Public/Auton Drive Straight Helper.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
