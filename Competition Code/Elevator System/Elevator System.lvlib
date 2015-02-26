@@ -44,6 +44,8 @@
 		<Item Name="CompoundCommands" Type="Folder">
 			<Item Name="CommandPickup.vi" Type="VI" URL="../Private/CompoundCommands/CommandPickup.vi"/>
 			<Item Name="CommandCycle.vi" Type="VI" URL="../Private/CompoundCommands/CommandCycle.vi"/>
+			<Item Name="CommandPickup_FAST.vi" Type="VI" URL="../Private/CompoundCommands/CommandPickup_FAST.vi"/>
+			<Item Name="CommandCycle_FAST.vi" Type="VI" URL="../Private/CompoundCommands/CommandCycle_FAST.vi"/>
 		</Item>
 		<Item Name="Control Loops" Type="Folder">
 			<Item Name="Elevator Control Loop.vi" Type="VI" URL="../Private/Elevator Control Loop.vi"/>
