@@ -1,0 +1,11 @@
+###This script turns 360 degrees in 90 degree segments###
+
+#Zero the yaw before first turn
+#RESET_GYRO
+#GYRO_ROTATE_PID 90 .55 .1 0
+GOTO_TOTE_LEVEL 3
+WAIT_ON_ELEVATOR
+GRIPPER_RC
+WAIT_ON_GRIPPER
+RESET_ENCODER
+GYRO_DRIVE_STRAIGHT 48 0.6

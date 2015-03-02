@@ -1,0 +1,35 @@
+#This program picks up a single RC puts in on a 
+#Program should start with elevator HOME and arms open wide
+
+#Gripper to RC position
+GRIPPER_RC
+WAIT_ON_GRIPPER
+WAIT_ON_GRIPPER
+
+#Lift RC above tote
+GOTO_TOTE_LEVEL 2
+RESET_ENCODER
+WAIT_ON_ELEVATOR
+
+#drive to tote
+GYRO_DRIVE_STRAIGHT 22 .56
+
+#place RC on tote
+GOTO_TOTE_LEVEL 0
+GRIPPER_OPEN
+#Pick up tote
+WAIT_ON_ELEVATOR
+GRIPPER_CLOSE
+WAIT_ON_GRIPPER
+GOTO_TOTE_LEVEL 1
+WAIT_ON_ELEVATOR
+RESET_ENCODER
+
+#Drive into zone
+RESET_GYRO
+GYRO_ROTATE_PID -90 .55 .08 0
+RESET_ENCODER
+GYRO_DRIVE_STRAIGHT 90 .6
+SCORE
+RESET_ENCODER
+ENCODER_DRIVE_COAST -12 .55
