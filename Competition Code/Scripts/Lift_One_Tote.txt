@@ -1,0 +1,6 @@
+#This program picks up a single tote and drives to auto zone
+#Program should start with elevator HOME and arms around tote
+#Pick up tote
+GRIPPER_CLOSE
+WAIT_ON_GRIPPER
+GOTO_TOTE_LEVEL 1

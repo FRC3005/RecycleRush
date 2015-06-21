@@ -1,0 +1,13 @@
+#This program picks up a single tote and drives to auto zone
+#Program should start with elevator HOME and arms around tote
+#Pick up tote
+GRIPPER_CLOSE
+WAIT_ON_GRIPPER
+GOTO_TOTE_LEVEL 1
+
+#Drive into zone
+#RESET_GYRO
+#GYRO_ROTATE_PID -90 .55 .08 0
+RESET_ENCODER
+#GYRO_DRIVE_STRAIGHT 90 .6
+GYRO_STRAFE_STRAIGHT -115 .65

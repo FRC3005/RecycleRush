@@ -1,0 +1,9 @@
+1. Make sure the robot is on
+2. Double check robot starting position
+3. Make sure arms are attached properly
+4. Select proper autonomous routine
+5. Verify joystick configuration and buttons
+6. Ensure communication with the field
+
+Double clicking checkmarks a list item.
+Shift Double Click clears the checkmarks.
