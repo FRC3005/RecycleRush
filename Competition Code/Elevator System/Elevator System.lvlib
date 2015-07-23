@@ -21,13 +21,13 @@
 			<Item Name="ElevatorManual.vi" Type="VI" URL="../Public/ElevatorManual.vi"/>
 			<Item Name="TeirToSensor.vi" Type="VI" URL="../Public/TeirToSensor.vi"/>
 			<Item Name="Wait On Elevator.vi" Type="VI" URL="../Public/Wait On Elevator.vi"/>
+			<Item Name="Get Status.vi" Type="VI" URL="../Public/Get Status.vi"/>
 			<Item Name="Wait On Gripper.vi" Type="VI" URL="../Public/Wait On Gripper.vi"/>
 			<Item Name="GripperSettings.vi" Type="VI" URL="../Public/GripperSettings.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="TeirNumber.ctl" Type="VI" URL="../Typedef/TeirNumber.ctl"/>
 		</Item>
-		<Item Name="Sensors Global.vi" Type="VI" URL="../Public/Sensors Global.vi"/>
 		<Item Name="Controller.vi" Type="VI" URL="../Public/Controller.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
@@ -40,6 +40,8 @@
 			<Item Name="StackCommandType.ctl" Type="VI" URL="../Typedef/StackCommandType.ctl"/>
 			<Item Name="StackMessage.ctl" Type="VI" URL="../Typedef/StackMessage.ctl"/>
 			<Item Name="GripperNotifierType.ctl" Type="VI" URL="../Typedef/GripperNotifierType.ctl"/>
+			<Item Name="FGVAction.ctl" Type="VI" URL="../Typedef/FGVAction.ctl"/>
+			<Item Name="Gripper Sensors.ctl" Type="VI" URL="../Typedef/Gripper Sensors.ctl"/>
 		</Item>
 		<Item Name="CompoundCommands" Type="Folder">
 			<Item Name="CommandPickup.vi" Type="VI" URL="../Private/CompoundCommands/CommandPickup.vi"/>
@@ -51,14 +53,29 @@
 			<Item Name="Elevator Control Loop.vi" Type="VI" URL="../Private/Elevator Control Loop.vi"/>
 			<Item Name="Gripper Control Loop.vi" Type="VI" URL="../Private/Gripper Control Loop.vi"/>
 			<Item Name="Gripper Control Loop CAN.vi" Type="VI" URL="../Private/Gripper Control Loop CAN.vi"/>
+			<Item Name="Elevator Control Loop - Motion Profile.vi" Type="VI" URL="../Private/Elevator Control Loop - Motion Profile.vi"/>
+			<Item Name="Gripper Control Loop - SIM.vi" Type="VI" URL="../Private/Gripper Control Loop - SIM.vi"/>
+		</Item>
+		<Item Name="FGV" Type="Folder">
+			<Item Name="Elevator Sensor.vi" Type="VI" URL="../Private/FGV/Elevator Sensor.vi"/>
+			<Item Name="Elevator Status.vi" Type="VI" URL="../Private/FGV/Elevator Status.vi"/>
+			<Item Name="FGV.vit" Type="VI" URL="../Private/FGV/FGV.vit"/>
+			<Item Name="Gripper Sensors.vi" Type="VI" URL="../Private/FGV/Gripper Sensors.vi"/>
+			<Item Name="Gripper Status.vi" Type="VI" URL="../Private/FGV/Gripper Status.vi"/>
+		</Item>
+		<Item Name="SimulatorVIs" Type="Folder">
+			<Item Name="Motor Get Ref.vi" Type="VI" URL="../SimulatorVIs/Motor Get Ref.vi"/>
+			<Item Name="Motor Set Output.vi" Type="VI" URL="../SimulatorVIs/Motor Set Output.vi"/>
+			<Item Name="Simulation Input Global.vi" Type="VI" URL="../SimulatorVIs/Simulation Input Global.vi"/>
+			<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
+			<Item Name="Plant System.vi" Type="VI" URL="../SimulatorVIs/Plant System.vi"/>
 		</Item>
 		<Item Name="EoTDetect.vi" Type="VI" URL="../Private/EoTDetect.vi"/>
 		<Item Name="Get Gripper Notifier.vi" Type="VI" URL="../Private/Get Gripper Notifier.vi"/>
 		<Item Name="GetElevatorStatus.vi" Type="VI" URL="../Public/GetElevatorStatus.vi"/>
 		<Item Name="GetGripperStatus.vi" Type="VI" URL="../Public/GetGripperStatus.vi"/>
-	</Item>
-	<Item Name="SimulatorVIs" Type="Folder">
-		<Item Name="Deadband Simulator.vi" Type="VI" URL="../SimulatorVIs/Deadband Simulator.vi"/>
-		<Item Name="Plant System.vi" Type="VI" URL="../SimulatorVIs/Plant System.vi"/>
+		<Item Name="Binary Search 1D Array.vi" Type="VI" URL="../Private/Binary Search 1D Array.vi"/>
+		<Item Name="Generate 1D Motion Profile.vi" Type="VI" URL="../Private/Generate 1D Motion Profile.vi"/>
+		<Item Name="Sensor Loop.vi" Type="VI" URL="../Private/Sensor Loop.vi"/>
 	</Item>
 </Library>
