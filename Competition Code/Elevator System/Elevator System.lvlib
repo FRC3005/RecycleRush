@@ -29,6 +29,7 @@
 			<Item Name="TeirNumber.ctl" Type="VI" URL="../Typedef/TeirNumber.ctl"/>
 		</Item>
 		<Item Name="Controller.vi" Type="VI" URL="../Public/Controller.vi"/>
+		<Item Name="StupidGlobal.vi" Type="VI" URL="../Public/StupidGlobal.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
